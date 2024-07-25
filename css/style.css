@@ -425,6 +425,8 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 45px;
     padding-top: 31px;
     padding-bottom: 26px;
 }
@@ -433,4 +435,140 @@ header{
     display: flex;
     flex-wrap: wrap;
     gap: 76px;
+}
+
+.header__link:hover{
+    opacity: 0.75;
+}
+
+.navigation__list{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+}
+
+.intro{
+    position: relative;
+}
+
+.wave{
+    position: absolute;
+    width: 100%;
+    bottom: -.1%;
+    transform:rotate(3.142rad);
+}
+
+.navigation__item{
+    width: 12px;
+    height: 12px;
+    border-radius: 100px;
+    background-color: #ffffff;
+}
+
+.navigation__item:hover{
+    cursor: pointer;
+}
+
+.img__text{
+    display: none;
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+}
+
+.img__pict{
+    display: none;
+    
+}
+.img__button{
+    display: none;
+
+}
+
+.active{
+    display: flex;
+}
+
+.active-point{
+    background-color: #E43071;
+    width: 17px;
+    height: 17px;
+}
+
+.img-text__list{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 35%;
+    left: 30%;
+    align-items: center;
+    gap: 25px;
+}
+
+.img__button{
+    border: 0px;
+    padding: 14px 56px 17px 56px;
+    border-radius: 39px;
+    font-family: "Poppins";
+    color: white;
+    background-color: #E43071;
+}
+
+.img__button:hover{
+    background-color: #a82656;
+    color: rgb(207, 207, 207);
+}
+
+.card{
+    position: relative;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding-top: 95px;
+}
+
+.card__pic2{
+    position: absolute;
+    left: 18%;
+    top: 50%;
+}
+
+.card__list{
+    display: flex;
+    gap: 272px;
+    align-items: center;
+}
+
+.card__button{
+    border: 2px solid #E43071;
+    padding: 15px 65px;
+    border-radius: 39px;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #E43071;
+    background-color: white;
+}
+
+.card__button:hover{
+    background-color: #E43071;
+    color: white;
+}
+
+.card__text-item_head{
+    font-size: 40px;
+    color: #E43071;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.card__text-item{
+    line-height: 37px;
+    margin-bottom: 35px;
+    font-size: 16px;
 }
