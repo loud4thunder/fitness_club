@@ -395,10 +395,12 @@ textarea {
     font-size: 16px;
     color: #000;
   }
+
 a{
     text-decoration: none;
     color:white;
 }
+
 header{
     background-color: #E43071;
     color: white;
@@ -507,7 +509,7 @@ header{
     display: flex;
     flex-direction: column;
     top: 35%;
-    left: 30%;
+    left: 34%;
     align-items: center;
     gap: 25px;
 }
@@ -516,6 +518,7 @@ header{
     border: 0px;
     padding: 14px 56px 17px 56px;
     border-radius: 39px;
+    line-height: 37px;
     font-family: "Poppins";
     color: white;
     background-color: #E43071;
@@ -531,6 +534,7 @@ header{
     max-width: 1160px;
     margin: 0 auto;
     padding-top: 95px;
+    margin-bottom: 110px;
 }
 
 .card__pic2{
@@ -571,4 +575,213 @@ header{
     line-height: 37px;
     margin-bottom: 35px;
     font-size: 16px;
+}
+
+.feedback{
+    background-image: url(../images/Rectangle\ 17.png);
+    padding-left: 255px;
+    padding-right: 258px;
+    height: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.feedback__card{
+    border-radius: 10px;
+    box-shadow: 10px 10px 51px -18px rgba(0,0,0,0.75);
+    background-color: white;
+    padding: 46px 32px 38px 34px;
+}
+
+.feedback__head{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 12px;
+}
+
+.feedback__text{
+    font-size: 18px;
+}
+
+.card__head{
+    font-size: 38px;
+    font-weight: 600;
+    color: #E43071;
+    margin-bottom: 30px;
+}
+
+.card__text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom: 25px;
+    padding-left: 35px;
+}
+
+.one{
+    position: absolute;
+    max-width: 450px;
+    top: 5%;
+    right: 18%;
+
+}
+
+.two{
+    position: absolute;
+    max-width: 350px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.three{
+    position: absolute;
+    max-width: 350px;
+    right: 25%;
+    margin-top: 286px;
+}
+
+.user__info{
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    padding-left: 35px;
+}
+
+.user__name{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.app{
+    background-color: #E43071;
+    height: 490px;
+    position: relative;
+}
+
+.app-descr__list{
+    max-width: 490px;
+    padding-top: 112px;
+    margin-left: 238px
+}
+
+.app-descr__head{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 4px;
+}
+
+.app-descr__text{
+    color: white;
+    line-height: 37px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.app-descr__download{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.market__list{
+    display: flex;
+    gap: 12px;
+}
+
+.phone__pic1{
+    position: absolute;
+    bottom: 2%;
+    right: 25%;
+}
+
+.phone__pic2{
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+}
+
+.social{
+    background-color: #EDEDED;
+}
+
+.social__head{
+    font-size: 40px;
+    font-weight: 800;
+    color: #E43071;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 60px;
+}
+
+.social__list{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    padding-bottom: 70px;
+}
+
+.footer{
+    background-color: rgba(37, 37, 37, 1);
+}
+
+.social__link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.footer__text{
+    font-size: 14px;
+    color: #D9DBE1;
+    line-height: 24px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.footer__table {
+    display: flex;
+    gap: 40px;
+    padding-left: 165px;
+    padding-top: 95px;
+    padding-bottom: 80px;
+}
+
+.footer__plate{
+    width: 245px;
+}
+
+.footer__social-list{
+    display: flex;
+    gap: 16px;
+}
+
+.plate__head{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.plate__list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.plate__link{
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.plate__item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
